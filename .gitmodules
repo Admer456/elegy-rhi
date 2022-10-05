@@ -1,0 +1,5 @@
+[submodule "nvrhi"]
+	path = nvrhi
+	url = https://github.com/Admer456/nvrhi.git
+	branch = main
+	shallow = 1
