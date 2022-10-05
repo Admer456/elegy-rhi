@@ -23,6 +23,7 @@
 // Adapted from Donut's DeviceManager:
 // https://github.com/NVIDIAGameWorks/donut/blob/main/include/donut/app/DeviceManager.h
 // Removed all GLFW references so this can be usable in SDL2 as well, but not limited to any
+// Also removed some graphics API-specific includes (e.g. DXGI.h) to speed up compile times
 
 #pragma once
 
