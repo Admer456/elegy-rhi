@@ -47,15 +47,15 @@ if ( NOT (NVRHI_WITH_VULKAN OR NVRHI_WITH_DX11 OR NVRHI_WITH_DX12) )
 endif()
 
 if ( NVRHI_WITH_DX11 )
-	set_target_properties( nvrhi_d3d11 PROPERTIES FOLDER "Libs" )
+	set_target_properties( nvrhi_d3d11 PROPERTIES FOLDER "Libs/NVRHI" )
 endif()
 if ( NVRHI_WITH_DX12 )
-	set_target_properties( nvrhi_d3d12 PROPERTIES FOLDER "Libs" )
+	set_target_properties( nvrhi_d3d12 PROPERTIES FOLDER "Libs/NVRHI" )
 endif()
 if ( NVRHI_WITH_VULKAN )
-	set_target_properties( nvrhi_vk PROPERTIES FOLDER "Libs" )
+	set_target_properties( nvrhi_vk PROPERTIES FOLDER "Libs/NVRHI" )
 endif()
-set_target_properties( nvrhi PROPERTIES FOLDER "Libs" )
+set_target_properties( nvrhi PROPERTIES FOLDER "Libs/NVRHI" )
 
 ## The sources
 set( THE_SOURCES
