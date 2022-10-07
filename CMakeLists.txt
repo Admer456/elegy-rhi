@@ -96,8 +96,8 @@ if ( NVRHI_WITH_VULKAN )
 	target_include_directories( ElegyRhi PRIVATE ${Vulkan_INCLUDE_DIR} )
 endif()
 
-## Link against SDL2 libs
-target_link_libraries( ElegyRhi PRIVATE ${SDL2_LIBRARIES} nvrhi )
+## Link against NVRHI
+target_link_libraries( ElegyRhi PRIVATE nvrhi )
 
 set( ELR_DEFINES "" )
 if ( WIN32 )
