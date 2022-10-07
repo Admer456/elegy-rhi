@@ -27,7 +27,7 @@
 #include <queue>
 #include <unordered_set>
 
-#include "DeviceManager.hpp"
+#include "elegy-rhi/DeviceManager.hpp"
 
 #include <nvrhi/vulkan.h>
 #include <nvrhi/validation.h>

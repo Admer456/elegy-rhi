@@ -27,7 +27,7 @@
 #include <sstream>
 #include <vector>
 
-#include "DeviceManager.hpp"
+#include "elegy-rhi/DeviceManager.hpp"
 
 #include <Windows.h>
 #include <dxgi1_5.h>

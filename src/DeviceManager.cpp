@@ -23,7 +23,7 @@
 // Adapted from Donut's DeviceManager
 // https://github.com/NVIDIAGameWorks/donut/blob/main/src/app/DeviceManager.cpp
 
-#include "DeviceManager.hpp"
+#include "elegy-rhi/DeviceManager.hpp"
 #include <nvrhi/utils.h>
 #include <iostream>
 

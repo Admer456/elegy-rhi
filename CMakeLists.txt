@@ -60,7 +60,7 @@ set_target_properties( nvrhi PROPERTIES FOLDER "Libs" )
 ## The sources
 set( THE_SOURCES
 	src/DeviceManager.cpp
-	include/DeviceManager.hpp )
+	include/elegy-rhi/DeviceManager.hpp )
 
 if ( NVRHI_WITH_DX11 )
 	set( THE_SOURCES

@@ -25,7 +25,7 @@
 
 #include <string>
 
-#include "DeviceManager.hpp"
+#include "elegy-rhi/DeviceManager.hpp"
 
 #include <Windows.h>
 #include <dxgi1_3.h>
