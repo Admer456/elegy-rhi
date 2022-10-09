@@ -125,7 +125,7 @@ if ( NVRHI_WITH_VULKAN )
 endif()
 
 target_compile_definitions( nvrhi PRIVATE ${ELR_DEFINES} )
-target_compile_definitions( ElegyRhi PRIVATE ${ELR_DEFINES} )
+target_compile_definitions( ElegyRhi PUBLIC ${ELR_DEFINES} )
 
 if ( NVRHI_WITH_DX11 )
 	target_compile_definitions( nvrhi_d3d11 PRIVATE ${ELR_DEFINES} )
